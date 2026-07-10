@@ -8,7 +8,7 @@ import java.time.LocalDateTime;
 @Entity
 @Table(name = "notes")
 @Data
-public class Note {
+public class NoteEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -17,7 +17,7 @@ public class Note {
     private String title;
 
     @Column(nullable = false)
-    private String environment;
+    private String type;
 
     @Column(nullable = false,columnDefinition = "TEXT")
     private String content;
