@@ -8,8 +8,8 @@ public interface NoteService {
 
     List<NoteDTO> getAllNotes();
 
-    // 根據環境（UT, UAT, PROD）篩選筆記
-    List<NoteDTO> getAllNotesType(String type);
+    // 根據類別篩選筆記
+    List<NoteDTO> getNotesByType(String type);
 
     // 傳入前端給的 DTO，回傳新增成功後的 DTO
     NoteDTO createNote(NoteDTO noteDTO);

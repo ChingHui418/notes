@@ -33,8 +33,8 @@ public class NoteServiceImpl implements NoteService {
     }
 
     @Override
-    public List<NoteDTO> getAllNotesType(String type) {
-        log.info("執行查詢：根據環境 [{}] 篩選筆記", type);
+    public List<NoteDTO> getNotesByType(String type) {
+        log.info("執行查詢：根據類別 [{}] 篩選筆記", type);
 
         return noteRepository.findByType(type).stream()
                              .map(this::convertToDTO)
