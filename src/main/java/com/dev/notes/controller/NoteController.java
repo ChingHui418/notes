@@ -2,6 +2,8 @@ package com.dev.notes.controller;
 
 import com.dev.notes.dto.NoteDTO;
 import com.dev.notes.service.NoteService;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,11 +17,13 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/notes")
 @CrossOrigin(origins = "*")
+@Tag(name = "筆記管理 API", description = "提供筆記的增刪修改功能") // 幫整個 Controller 命名
 public class NoteController {
 
     @Autowired
     private NoteService noteService;
 
+    @Operation(summary = "取得所有筆記", description = "回傳資料庫內所有筆記的陣列")
     @GetMapping
     public ResponseEntity<List<NoteDTO>> getAllNotes() {
         log.info("收到 API 請求：取的所有筆記");
@@ -28,6 +32,7 @@ public class NoteController {
         return ResponseEntity.ok(notes);
     }
 
+    @Operation(summary = "根據分類取得筆記", description = "傳入自訂分類，回傳符合該分類筆記的陣列")
     @GetMapping("/type/{type}")
     public ResponseEntity<List<NoteDTO>> getNotesByType(@PathVariable String type) {
         log.info("收到 API 請求：取得分類為 [{}] 的筆記", type);
@@ -36,6 +41,7 @@ public class NoteController {
     }
 
     // 新增筆記
+    @Operation(summary = "新增筆記", description = "傳入帶有標題與內容的 JSON，成功後回傳帶有 ID 的筆記資料")
     @PostMapping
     public ResponseEntity<NoteDTO> createNote(@Valid @RequestBody NoteDTO noteDTO) {
         log.info("收到 API 請求：新增筆記");
@@ -45,6 +51,7 @@ public class NoteController {
     }
 
     // 更新筆記
+    @Operation(summary = "更新筆記", description = "傳入欲修改的筆記 ID 與新的 JSON 資料，覆寫原有筆記")
     @PutMapping("/{id}")
     public ResponseEntity<NoteDTO> updateNote(@PathVariable Long id,@Valid @RequestBody NoteDTO noteDTO) {
         log.info("收到 API 請求：更新 ID [{}] 的筆記", id);
@@ -58,6 +65,7 @@ public class NoteController {
         }
     }
 
+    @Operation(summary = "刪除筆記", description = "傳入欲刪除的筆記 ID，成功刪除不會回傳任何內容 (HTTP 204)")
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> deleteNote(@PathVariable Long id) {
         log.info("收到 API 請求：刪除 ID [{}] 的筆記", id);
