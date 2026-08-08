@@ -2,6 +2,7 @@ package com.dev.notes.controller;
 
 import com.dev.notes.dto.NoteDTO;
 import com.dev.notes.service.NoteService;
+import jakarta.validation.Valid;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -34,16 +35,18 @@ public class NoteController {
         return ResponseEntity.ok(notes);
     }
 
+    // 新增筆記
     @PostMapping
-    public ResponseEntity<NoteDTO> createNote(@RequestBody NoteDTO noteDTO) {
+    public ResponseEntity<NoteDTO> createNote(@Valid @RequestBody NoteDTO noteDTO) {
         log.info("收到 API 請求：新增筆記");
         NoteDTO createdNote = noteService.createNote(noteDTO);
         // 回傳 HTTP 狀態碼 201
         return ResponseEntity.status(HttpStatus.CREATED).body(createdNote);
     }
 
+    // 更新筆記
     @PutMapping("/{id}")
-    public ResponseEntity<NoteDTO> updateNote(@PathVariable Long id, @RequestBody NoteDTO noteDTO) {
+    public ResponseEntity<NoteDTO> updateNote(@PathVariable Long id,@Valid @RequestBody NoteDTO noteDTO) {
         log.info("收到 API 請求：更新 ID [{}] 的筆記", id);
         NoteDTO updatedNote = noteService.updateNote(id, noteDTO);
 
