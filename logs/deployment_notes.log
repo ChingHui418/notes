@@ -1,22 +1,22 @@
-2026-08-08T10:30:20.613+08:00  INFO 1508 --- [notes] [restartedMain] com.dev.notes.NotesApplication           : Starting NotesApplication using Java 21.0.9 with PID 1508 (C:\Project\notes\target\classes started by a0985 in C:\Project\notes)
-2026-08-08T10:30:20.613+08:00 DEBUG 1508 --- [notes] [restartedMain] com.dev.notes.NotesApplication           : Running with Spring Boot v4.1.0, Spring v7.0.8
-2026-08-08T10:30:20.613+08:00  INFO 1508 --- [notes] [restartedMain] com.dev.notes.NotesApplication           : No active profile set, falling back to 1 default profile: "default"
-2026-08-08T10:30:20.663+08:00  INFO 1508 --- [notes] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-08-08T10:30:20.663+08:00  INFO 1508 --- [notes] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-08-08T10:30:21.257+08:00  INFO 1508 --- [notes] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-08-08T10:30:21.320+08:00  INFO 1508 --- [notes] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interface.
-2026-08-08T10:30:21.827+08:00  INFO 1508 --- [notes] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
-2026-08-08T10:30:21.835+08:00  INFO 1508 --- [notes] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-08-08T10:30:21.835+08:00  INFO 1508 --- [notes] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
-2026-08-08T10:30:21.902+08:00  INFO 1508 --- [notes] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1237 ms
-2026-08-08T10:30:22.097+08:00  INFO 1508 --- [notes] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-08-08T10:30:22.177+08:00  INFO 1508 --- [notes] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.1.Final
-2026-08-08T10:30:22.704+08:00  INFO 1508 --- [notes] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-08-08T10:30:22.735+08:00  INFO 1508 --- [notes] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-08-08T10:30:22.909+08:00  INFO 1508 --- [notes] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5cfcf11a
-2026-08-08T10:30:22.917+08:00  INFO 1508 --- [notes] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-08-08T10:30:22.972+08:00  WARN 1508 --- [notes] [restartedMain] org.hibernate.orm.core                   : HHH000511: The 5.7.24 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
-2026-08-08T10:30:22.988+08:00  INFO 1508 --- [notes] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2026-08-09T00:28:46.290+08:00  INFO 20040 --- [notes] [restartedMain] com.dev.notes.NotesApplication           : Starting NotesApplication using Java 21.0.9 with PID 20040 (C:\Project\notes\target\classes started by a0985 in C:\Project\notes)
+2026-08-09T00:28:46.297+08:00 DEBUG 20040 --- [notes] [restartedMain] com.dev.notes.NotesApplication           : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-08-09T00:28:46.297+08:00  INFO 20040 --- [notes] [restartedMain] com.dev.notes.NotesApplication           : No active profile set, falling back to 1 default profile: "default"
+2026-08-09T00:28:46.341+08:00  INFO 20040 --- [notes] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-08-09T00:28:46.342+08:00  INFO 20040 --- [notes] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-08-09T00:28:47.045+08:00  INFO 20040 --- [notes] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-09T00:28:47.096+08:00  INFO 20040 --- [notes] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interface.
+2026-08-09T00:28:47.749+08:00  INFO 20040 --- [notes] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-08-09T00:28:47.764+08:00  INFO 20040 --- [notes] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-08-09T00:28:47.766+08:00  INFO 20040 --- [notes] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-09T00:28:47.819+08:00  INFO 20040 --- [notes] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1477 ms
+2026-08-09T00:28:48.030+08:00  INFO 20040 --- [notes] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-09T00:28:48.112+08:00  INFO 20040 --- [notes] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-08-09T00:28:48.576+08:00  INFO 20040 --- [notes] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-09T00:28:48.611+08:00  INFO 20040 --- [notes] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-08-09T00:28:48.766+08:00  INFO 20040 --- [notes] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@def5811
+2026-08-09T00:28:48.768+08:00  INFO 20040 --- [notes] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-08-09T00:28:48.838+08:00  WARN 20040 --- [notes] [restartedMain] org.hibernate.orm.core                   : HHH000511: The 5.7.24 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2026-08-09T00:28:48.865+08:00  INFO 20040 --- [notes] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [jdbc:mysql://localhost:3306/deployment_notes?serverTimezone=Asia/Taipei&useSSL=false&characterEncoding=utf8]
 	Database driver: MySQL Connector/J
 	Database dialect: MySQLDialect
@@ -28,180 +28,66 @@
 	Pool: DataSourceConnectionProvider
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-08-08T10:30:23.862+08:00  INFO 1508 --- [notes] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-08-08T10:30:24.005+08:00  INFO 1508 --- [notes] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-08-08T10:30:24.085+08:00  INFO 1508 --- [notes] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-08-08T10:30:24.323+08:00  WARN 1508 --- [notes] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-08-08T10:30:24.622+08:00  INFO 1508 --- [notes] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
-2026-08-08T10:30:24.630+08:00  INFO 1508 --- [notes] [restartedMain] com.dev.notes.NotesApplication           : Started NotesApplication in 4.575 seconds (process running for 5.374)
-2026-08-08T10:31:40.393+08:00  INFO 1508 --- [notes] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-08-08T10:31:40.393+08:00  INFO 1508 --- [notes] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-08-08T10:31:40.403+08:00  INFO 1508 --- [notes] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
-2026-08-08T10:31:40.745+08:00  INFO 1508 --- [notes] [http-nio-8080-exec-1] c.dev.notes.controller.NoteController    : 收到 API 請求：新增筆記
-2026-08-08T10:31:40.745+08:00  INFO 1508 --- [notes] [http-nio-8080-exec-1] c.d.n.service.implement.NoteServiceImpl  : 執行查詢：準備建立標題為 [後端 MVP 第一次通電測試] 的筆記
-2026-08-08T10:36:19.546+08:00  INFO 1508 --- [notes] [http-nio-8080-exec-7] c.dev.notes.controller.NoteController    : 收到 API 請求：取的所有筆記
-2026-08-08T10:36:19.546+08:00  INFO 1508 --- [notes] [http-nio-8080-exec-7] c.d.n.service.implement.NoteServiceImpl  : 執行查詢：獲取所有筆記
-2026-08-08T10:41:10.889+08:00  INFO 1508 --- [notes] [http-nio-8080-exec-8] c.dev.notes.controller.NoteController    : 收到 API 請求：取得分類為 [部署] 的筆記
-2026-08-08T10:41:10.891+08:00  INFO 1508 --- [notes] [http-nio-8080-exec-8] c.d.n.service.implement.NoteServiceImpl  : 執行查詢：根據類別 [部署] 篩選筆記
-2026-08-08T10:42:17.486+08:00  INFO 1508 --- [notes] [http-nio-8080-exec-2] c.dev.notes.controller.NoteController    : 收到 API 請求：更新 ID [1] 的筆記
-2026-08-08T10:42:17.592+08:00  INFO 1508 --- [notes] [http-nio-8080-exec-2] c.d.n.service.implement.NoteServiceImpl  : 更新成功：ID [1]
-2026-08-08T10:42:56.461+08:00  INFO 1508 --- [notes] [http-nio-8080-exec-1] c.dev.notes.controller.NoteController    : 收到 API 請求：刪除 ID [1] 的筆記
-2026-08-08T10:42:56.545+08:00  INFO 1508 --- [notes] [http-nio-8080-exec-1] c.d.n.service.implement.NoteServiceImpl  : 執行刪除：成功刪除 ID [1] 的筆記
-2026-08-08T10:53:37.813+08:00  INFO 1508 --- [notes] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-08-08T10:53:37.827+08:00  INFO 1508 --- [notes] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-08-08T10:53:37.834+08:00  INFO 1508 --- [notes] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-08-08T10:53:37.854+08:00  INFO 1508 --- [notes] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-08-08T10:53:37.854+08:00  INFO 1508 --- [notes] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-08-08T10:53:44.222+08:00  INFO 19784 --- [notes] [restartedMain] com.dev.notes.NotesApplication           : Starting NotesApplication using Java 21.0.9 with PID 19784 (C:\Project\notes\target\classes started by a0985 in C:\Project\notes)
-2026-08-08T10:53:44.223+08:00 DEBUG 19784 --- [notes] [restartedMain] com.dev.notes.NotesApplication           : Running with Spring Boot v4.1.0, Spring v7.0.8
-2026-08-08T10:53:44.223+08:00  INFO 19784 --- [notes] [restartedMain] com.dev.notes.NotesApplication           : No active profile set, falling back to 1 default profile: "default"
-2026-08-08T10:53:44.272+08:00  INFO 19784 --- [notes] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-08-08T10:53:44.272+08:00  INFO 19784 --- [notes] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-08-08T10:53:44.903+08:00  INFO 19784 --- [notes] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-08-08T10:53:44.959+08:00  INFO 19784 --- [notes] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interface.
-2026-08-08T10:53:45.445+08:00  INFO 19784 --- [notes] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
-2026-08-08T10:53:45.466+08:00  INFO 19784 --- [notes] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-08-08T10:53:45.466+08:00  INFO 19784 --- [notes] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
-2026-08-08T10:53:45.507+08:00  INFO 19784 --- [notes] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1231 ms
-2026-08-08T10:53:45.688+08:00  INFO 19784 --- [notes] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-08-08T10:53:45.764+08:00  INFO 19784 --- [notes] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.1.Final
-2026-08-08T10:53:46.313+08:00  INFO 19784 --- [notes] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-08-08T10:53:46.354+08:00  INFO 19784 --- [notes] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-08-08T10:53:46.529+08:00  INFO 19784 --- [notes] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7205035e
-2026-08-08T10:53:46.529+08:00  INFO 19784 --- [notes] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-08-08T10:53:46.596+08:00  WARN 19784 --- [notes] [restartedMain] org.hibernate.orm.core                   : HHH000511: The 5.7.24 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
-2026-08-08T10:53:46.611+08:00  INFO 19784 --- [notes] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [jdbc:mysql://localhost:3306/deployment_notes?serverTimezone=Asia/Taipei&useSSL=false&characterEncoding=utf8]
-	Database driver: MySQL Connector/J
-	Database dialect: MySQLDialect
-	Database version: 5.7.24
-	Default catalog/schema: deployment_notes/undefined
-	Autocommit mode: undefined/unknown
-	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
-	JDBC fetch size: none
-	Pool: DataSourceConnectionProvider
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-08-08T10:53:47.652+08:00  INFO 19784 --- [notes] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-08-08T10:53:47.709+08:00  INFO 19784 --- [notes] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-08-08T10:53:47.799+08:00  INFO 19784 --- [notes] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-08-08T10:53:47.973+08:00  WARN 19784 --- [notes] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-08-08T10:53:48.270+08:00  INFO 19784 --- [notes] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
-2026-08-08T10:53:48.270+08:00  INFO 19784 --- [notes] [restartedMain] com.dev.notes.NotesApplication           : Started NotesApplication in 4.59 seconds (process running for 5.28)
-2026-08-08T10:54:29.125+08:00  INFO 19784 --- [notes] [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-08-08T10:54:29.125+08:00  INFO 19784 --- [notes] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-08-08T10:54:29.131+08:00  INFO 19784 --- [notes] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
-2026-08-08T10:54:29.333+08:00  WARN 19784 --- [notes] [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.dev.notes.dto.NoteDTO> com.dev.notes.controller.NoteController.createNote(com.dev.notes.dto.NoteDTO): [Field error in object 'noteDTO' on field 'title': rejected value []; codes [NotBlank.noteDTO.title,NotBlank.title,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [noteDTO.title,title]; arguments []; default message [title]]; default message [筆記標題不能為空]] ]
-2026-08-08T11:31:26.294+08:00  INFO 19784 --- [notes] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-08-08T11:31:26.339+08:00  INFO 19784 --- [notes] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-08-08T11:31:26.372+08:00  INFO 19784 --- [notes] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-08-08T11:31:26.421+08:00  INFO 19784 --- [notes] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-08-08T11:31:26.427+08:00  INFO 19784 --- [notes] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-08-08T11:31:31.479+08:00  INFO 17832 --- [notes] [restartedMain] com.dev.notes.NotesApplication           : Starting NotesApplication using Java 21.0.9 with PID 17832 (C:\Project\notes\target\classes started by a0985 in C:\Project\notes)
-2026-08-08T11:31:31.481+08:00 DEBUG 17832 --- [notes] [restartedMain] com.dev.notes.NotesApplication           : Running with Spring Boot v4.1.0, Spring v7.0.8
-2026-08-08T11:31:31.482+08:00  INFO 17832 --- [notes] [restartedMain] com.dev.notes.NotesApplication           : No active profile set, falling back to 1 default profile: "default"
-2026-08-08T11:31:31.530+08:00  INFO 17832 --- [notes] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-08-08T11:31:31.530+08:00  INFO 17832 --- [notes] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-08-08T11:31:32.177+08:00  INFO 17832 --- [notes] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-08-08T11:31:32.234+08:00  INFO 17832 --- [notes] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interface.
-2026-08-08T11:31:32.888+08:00  INFO 17832 --- [notes] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
-2026-08-08T11:31:32.905+08:00  INFO 17832 --- [notes] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-08-08T11:31:32.906+08:00  INFO 17832 --- [notes] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
-2026-08-08T11:31:32.954+08:00  INFO 17832 --- [notes] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1423 ms
-2026-08-08T11:31:33.156+08:00  INFO 17832 --- [notes] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-08-08T11:31:33.264+08:00  INFO 17832 --- [notes] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.1.Final
-2026-08-08T11:31:33.807+08:00  INFO 17832 --- [notes] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-08-08T11:31:33.844+08:00  INFO 17832 --- [notes] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-08-08T11:31:34.016+08:00  INFO 17832 --- [notes] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ef672e0
-2026-08-08T11:31:34.018+08:00  INFO 17832 --- [notes] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-08-08T11:31:34.085+08:00  WARN 17832 --- [notes] [restartedMain] org.hibernate.orm.core                   : HHH000511: The 5.7.24 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
-2026-08-08T11:31:34.111+08:00  INFO 17832 --- [notes] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [jdbc:mysql://localhost:3306/deployment_notes?serverTimezone=Asia/Taipei&useSSL=false&characterEncoding=utf8]
-	Database driver: MySQL Connector/J
-	Database dialect: MySQLDialect
-	Database version: 5.7.24
-	Default catalog/schema: deployment_notes/undefined
-	Autocommit mode: undefined/unknown
-	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
-	JDBC fetch size: none
-	Pool: DataSourceConnectionProvider
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-08-08T11:31:35.101+08:00  INFO 17832 --- [notes] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-08-08T11:31:35.149+08:00  INFO 17832 --- [notes] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-08-08T11:31:35.237+08:00  INFO 17832 --- [notes] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-08-08T11:31:35.428+08:00  WARN 17832 --- [notes] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-08-08T11:31:35.745+08:00  INFO 17832 --- [notes] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
-2026-08-08T11:31:35.749+08:00  INFO 17832 --- [notes] [restartedMain] com.dev.notes.NotesApplication           : Started NotesApplication in 4.919 seconds (process running for 5.778)
-2026-08-08T11:31:46.106+08:00  INFO 17832 --- [notes] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-08-08T11:31:46.107+08:00  INFO 17832 --- [notes] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-08-08T11:31:46.109+08:00  INFO 17832 --- [notes] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2026-08-08T11:31:46.403+08:00  WARN 17832 --- [notes] [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.dev.notes.dto.NoteDTO> com.dev.notes.controller.NoteController.createNote(com.dev.notes.dto.NoteDTO): [Field error in object 'noteDTO' on field 'title': rejected value []; codes [NotBlank.noteDTO.title,NotBlank.title,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [noteDTO.title,title]; arguments []; default message [title]]; default message [筆記標題不能為空]] ]
-2026-08-08T21:18:56.036+08:00  INFO 8184 --- [notes] [restartedMain] com.dev.notes.NotesApplication           : Starting NotesApplication using Java 21.0.9 with PID 8184 (C:\Project\notes\target\classes started by a0985 in C:\Project\notes)
-2026-08-08T21:18:56.038+08:00 DEBUG 8184 --- [notes] [restartedMain] com.dev.notes.NotesApplication           : Running with Spring Boot v4.1.0, Spring v7.0.8
-2026-08-08T21:18:56.040+08:00  INFO 8184 --- [notes] [restartedMain] com.dev.notes.NotesApplication           : No active profile set, falling back to 1 default profile: "default"
-2026-08-08T21:18:56.083+08:00  INFO 8184 --- [notes] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-08-08T21:18:56.083+08:00  INFO 8184 --- [notes] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-08-08T21:18:56.914+08:00  INFO 8184 --- [notes] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-08-08T21:18:56.958+08:00  INFO 8184 --- [notes] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interface.
-2026-08-08T21:18:57.469+08:00  INFO 8184 --- [notes] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
-2026-08-08T21:18:57.487+08:00  INFO 8184 --- [notes] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-08-08T21:18:57.487+08:00  INFO 8184 --- [notes] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
-2026-08-08T21:18:57.541+08:00  INFO 8184 --- [notes] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1457 ms
-2026-08-08T21:18:57.741+08:00  INFO 8184 --- [notes] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-08-08T21:18:57.867+08:00  INFO 8184 --- [notes] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.1.Final
-2026-08-08T21:18:58.390+08:00  INFO 8184 --- [notes] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-08-08T21:18:58.431+08:00  INFO 8184 --- [notes] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-08-08T21:18:58.592+08:00  INFO 8184 --- [notes] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6a6f78eb
-2026-08-08T21:18:58.594+08:00  INFO 8184 --- [notes] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-08-08T21:18:58.662+08:00  WARN 8184 --- [notes] [restartedMain] org.hibernate.orm.core                   : HHH000511: The 5.7.24 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
-2026-08-08T21:18:58.684+08:00  INFO 8184 --- [notes] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [jdbc:mysql://localhost:3306/deployment_notes?serverTimezone=Asia/Taipei&useSSL=false&characterEncoding=utf8]
-	Database driver: MySQL Connector/J
-	Database dialect: MySQLDialect
-	Database version: 5.7.24
-	Default catalog/schema: deployment_notes/undefined
-	Autocommit mode: undefined/unknown
-	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
-	JDBC fetch size: none
-	Pool: DataSourceConnectionProvider
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-08-08T21:18:59.560+08:00  INFO 8184 --- [notes] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-08-08T21:18:59.606+08:00  INFO 8184 --- [notes] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-08-08T21:18:59.695+08:00  INFO 8184 --- [notes] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-08-08T21:18:59.980+08:00  WARN 8184 --- [notes] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-08-08T21:19:00.375+08:00  INFO 8184 --- [notes] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
-2026-08-08T21:19:00.379+08:00  INFO 8184 --- [notes] [restartedMain] com.dev.notes.NotesApplication           : Started NotesApplication in 4.805 seconds (process running for 5.465)
-2026-08-08T21:19:09.810+08:00  INFO 8184 --- [notes] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-08-08T21:19:09.810+08:00  INFO 8184 --- [notes] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-08-08T21:19:09.813+08:00  INFO 8184 --- [notes] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2026-08-08T21:19:10.938+08:00 ERROR 8184 --- [notes] [http-nio-8080-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Handler dispatch failed: java.lang.NoSuchMethodError: 'void org.springframework.web.method.ControllerAdviceBean.<init>(java.lang.Object)'] with root cause
+2026-08-09T00:28:49.718+08:00  INFO 20040 --- [notes] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-09T00:28:49.761+08:00  INFO 20040 --- [notes] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-09T00:28:49.833+08:00  INFO 20040 --- [notes] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-08-09T00:28:50.067+08:00  WARN 20040 --- [notes] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-08-09T00:28:50.424+08:00  INFO 20040 --- [notes] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-08-09T00:28:50.428+08:00  INFO 20040 --- [notes] [restartedMain] com.dev.notes.NotesApplication           : Started NotesApplication in 4.663 seconds (process running for 5.438)
+2026-08-09T00:28:53.905+08:00  INFO 20040 --- [notes] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-09T00:28:53.906+08:00  INFO 20040 --- [notes] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-08-09T00:28:53.907+08:00  INFO 20040 --- [notes] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-08-09T00:28:54.881+08:00  INFO 20040 --- [notes] [http-nio-8080-exec-1] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 482 ms
+2026-08-09T00:32:54.284+08:00  INFO 20040 --- [notes] [http-nio-8080-exec-10] c.dev.notes.controller.NoteController    : 收到 API 請求：新增筆記
+2026-08-09T00:32:54.285+08:00  INFO 20040 --- [notes] [http-nio-8080-exec-10] c.d.n.service.implement.NoteServiceImpl  : 執行查詢：準備建立標題為 [WebSphere Application Server (WAS)] 的筆記
+2026-08-09T00:32:54.401+08:00 ERROR 20040 --- [notes] [http-nio-8080-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.orm.ObjectOptimisticLockingFailureException: Row was already updated or deleted by another transaction for entity [com.dev.notes.entity.NoteEntity with id '1']] with root cause
 
-java.lang.NoSuchMethodError: 'void org.springframework.web.method.ControllerAdviceBean.<init>(java.lang.Object)'
-	at org.springdoc.core.service.GenericResponseService.lambda$getGenericMapResponse$8(GenericResponseService.java:705) ~[springdoc-openapi-starter-common-2.5.0.jar:2.5.0]
-	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178) ~[na:na]
-	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024) ~[na:na]
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[na:na]
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575) ~[na:na]
-	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260) ~[na:na]
-	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616) ~[na:na]
-	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622) ~[na:na]
-	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627) ~[na:na]
-	at org.springdoc.core.service.GenericResponseService.getGenericMapResponse(GenericResponseService.java:707) ~[springdoc-openapi-starter-common-2.5.0.jar:2.5.0]
-	at org.springdoc.core.service.GenericResponseService.build(GenericResponseService.java:246) ~[springdoc-openapi-starter-common-2.5.0.jar:2.5.0]
-	at org.springdoc.api.AbstractOpenApiResource.calculatePath(AbstractOpenApiResource.java:499) ~[springdoc-openapi-starter-common-2.5.0.jar:2.5.0]
-	at org.springdoc.api.AbstractOpenApiResource.calculatePath(AbstractOpenApiResource.java:676) ~[springdoc-openapi-starter-common-2.5.0.jar:2.5.0]
-	at org.springdoc.webmvc.api.OpenApiResource.lambda$calculatePath$11(OpenApiResource.java:219) ~[springdoc-openapi-starter-webmvc-api-2.5.0.jar:2.5.0]
-	at java.base/java.util.Optional.ifPresent(Optional.java:178) ~[na:na]
-	at org.springdoc.webmvc.api.OpenApiResource.calculatePath(OpenApiResource.java:200) ~[springdoc-openapi-starter-webmvc-api-2.5.0.jar:2.5.0]
-	at org.springdoc.webmvc.api.OpenApiResource.lambda$getPaths$2(OpenApiResource.java:170) ~[springdoc-openapi-starter-webmvc-api-2.5.0.jar:2.5.0]
-	at java.base/java.util.Optional.ifPresent(Optional.java:178) ~[na:na]
-	at org.springdoc.webmvc.api.OpenApiResource.getPaths(OpenApiResource.java:149) ~[springdoc-openapi-starter-webmvc-api-2.5.0.jar:2.5.0]
-	at org.springdoc.api.AbstractOpenApiResource.getOpenApi(AbstractOpenApiResource.java:353) ~[springdoc-openapi-starter-common-2.5.0.jar:2.5.0]
-	at org.springdoc.webmvc.api.OpenApiResource.openapiJson(OpenApiResource.java:124) ~[springdoc-openapi-starter-webmvc-api-2.5.0.jar:2.5.0]
-	at org.springdoc.webmvc.api.OpenApiWebMvcResource.openapiJson(OpenApiWebMvcResource.java:114) ~[springdoc-openapi-starter-webmvc-api-2.5.0.jar:2.5.0]
+org.hibernate.StaleObjectStateException: Row was already updated or deleted by another transaction for entity [com.dev.notes.entity.NoteEntity with id '1']
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:432) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.merge(DefaultMergeEventListener.java:193) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.doMerge(DefaultMergeEventListener.java:137) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:121) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:78) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:803) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:788) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:360) ~[spring-orm-7.0.8.jar:7.0.8]
+	at jdk.proxy4/jdk.proxy4.$Proxy130.merge(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityHandlerInvocationHandler.invokeMethod(SharedEntityManagerCreator.java:239) ~[spring-orm-7.0.8.jar:7.0.8]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:383) ~[spring-orm-7.0.8.jar:7.0.8]
+	at jdk.proxy4/jdk.proxy4.$Proxy130.merge(Unknown Source) ~[na:na]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:667) ~[spring-data-jpa-4.1.0.jar:4.1.0]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-7.0.8.jar:7.0.8]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:278) ~[spring-data-commons-4.1.0.jar:4.1.0]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:169) ~[spring-data-commons-4.1.0.jar:4.1.0]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158) ~[spring-data-commons-4.1.0.jar:4.1.0]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:545) ~[spring-data-commons-4.1.0.jar:4.1.0]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:290) ~[spring-data-commons-4.1.0.jar:4.1.0]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:690) ~[spring-data-commons-4.1.0.jar:4.1.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.8.jar:7.0.8]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:171) ~[spring-data-commons-4.1.0.jar:4.1.0]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:146) ~[spring-data-commons-4.1.0.jar:4.1.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.8.jar:7.0.8]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69) ~[spring-data-commons-4.1.0.jar:4.1.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.8.jar:7.0.8]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:133) ~[spring-tx-7.0.8.jar:7.0.8]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:371) ~[spring-tx-7.0.8.jar:7.0.8]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:130) ~[spring-tx-7.0.8.jar:7.0.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.8.jar:7.0.8]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:135) ~[spring-tx-7.0.8.jar:7.0.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.8.jar:7.0.8]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:166) ~[spring-data-jpa-4.1.0.jar:4.1.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.8.jar:7.0.8]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:222) ~[spring-aop-7.0.8.jar:7.0.8]
+	at jdk.proxy4/jdk.proxy4.$Proxy141.save(Unknown Source) ~[na:na]
+	at com.dev.notes.service.implement.NoteServiceImpl.createNote(NoteServiceImpl.java:52) ~[classes/:na]
+	at com.dev.notes.controller.NoteController.createNote(NoteController.java:48) ~[classes/:na]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252) ~[spring-web-7.0.8.jar:7.0.8]
@@ -213,8 +99,8 @@ java.lang.NoSuchMethodError: 'void org.springframework.web.method.ControllerAdvi
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.8.jar:7.0.8]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.8.jar:7.0.8]
 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000) ~[spring-webmvc-7.0.8.jar:7.0.8]
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892) ~[spring-webmvc-7.0.8.jar:7.0.8]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622) ~[tomcat-embed-core-11.0.22.jar:6.1]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649) ~[tomcat-embed-core-11.0.22.jar:6.1]
 	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.8.jar:7.0.8]
 	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.22.jar:6.1]
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
@@ -246,76 +132,58 @@ java.lang.NoSuchMethodError: 'void org.springframework.web.method.ControllerAdvi
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-08-08T21:19:50.718+08:00  INFO 8184 --- [notes] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-08-08T21:19:50.724+08:00  INFO 8184 --- [notes] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-08-08T21:19:50.728+08:00  INFO 8184 --- [notes] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-08-08T21:19:50.732+08:00  INFO 8184 --- [notes] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-08-08T21:19:50.740+08:00  INFO 8184 --- [notes] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-08-08T21:19:52.928+08:00  INFO 23564 --- [notes] [restartedMain] com.dev.notes.NotesApplication           : Starting NotesApplication using Java 21.0.9 with PID 23564 (C:\Project\notes\target\classes started by a0985 in C:\Project\notes)
-2026-08-08T21:19:52.931+08:00 DEBUG 23564 --- [notes] [restartedMain] com.dev.notes.NotesApplication           : Running with Spring Boot v4.1.0, Spring v7.0.8
-2026-08-08T21:19:52.932+08:00  INFO 23564 --- [notes] [restartedMain] com.dev.notes.NotesApplication           : No active profile set, falling back to 1 default profile: "default"
-2026-08-08T21:19:52.971+08:00  INFO 23564 --- [notes] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-08-08T21:19:52.971+08:00  INFO 23564 --- [notes] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-08-08T21:19:53.584+08:00  INFO 23564 --- [notes] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-08-08T21:19:53.624+08:00  INFO 23564 --- [notes] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interface.
-2026-08-08T21:19:54.087+08:00  INFO 23564 --- [notes] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
-2026-08-08T21:19:54.100+08:00  INFO 23564 --- [notes] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-08-08T21:19:54.101+08:00  INFO 23564 --- [notes] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
-2026-08-08T21:19:54.148+08:00  INFO 23564 --- [notes] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1175 ms
-2026-08-08T21:19:54.289+08:00  INFO 23564 --- [notes] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-08-08T21:19:54.355+08:00  INFO 23564 --- [notes] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.1.Final
-2026-08-08T21:19:54.717+08:00  INFO 23564 --- [notes] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-08-08T21:19:54.741+08:00  INFO 23564 --- [notes] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-08-08T21:19:54.872+08:00  INFO 23564 --- [notes] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@45d89cae
-2026-08-08T21:19:54.873+08:00  INFO 23564 --- [notes] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-08-08T21:19:54.917+08:00  WARN 23564 --- [notes] [restartedMain] org.hibernate.orm.core                   : HHH000511: The 5.7.24 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
-2026-08-08T21:19:54.939+08:00  INFO 23564 --- [notes] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [jdbc:mysql://localhost:3306/deployment_notes?serverTimezone=Asia/Taipei&useSSL=false&characterEncoding=utf8]
-	Database driver: MySQL Connector/J
-	Database dialect: MySQLDialect
-	Database version: 5.7.24
-	Default catalog/schema: deployment_notes/undefined
-	Autocommit mode: undefined/unknown
-	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
-	JDBC fetch size: none
-	Pool: DataSourceConnectionProvider
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-08-08T21:19:55.704+08:00  INFO 23564 --- [notes] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-08-08T21:19:55.741+08:00  INFO 23564 --- [notes] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-08-08T21:19:55.805+08:00  INFO 23564 --- [notes] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-08-08T21:19:56.042+08:00  WARN 23564 --- [notes] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-08-08T21:19:56.377+08:00  INFO 23564 --- [notes] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
-2026-08-08T21:19:56.382+08:00  INFO 23564 --- [notes] [restartedMain] com.dev.notes.NotesApplication           : Started NotesApplication in 3.889 seconds (process running for 4.649)
-2026-08-08T21:20:05.871+08:00  INFO 23564 --- [notes] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-08-08T21:20:05.871+08:00  INFO 23564 --- [notes] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-08-08T21:20:05.874+08:00  INFO 23564 --- [notes] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
-2026-08-08T21:20:06.641+08:00 ERROR 23564 --- [notes] [http-nio-8080-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Handler dispatch failed: java.lang.NoSuchMethodError: 'void org.springframework.web.method.ControllerAdviceBean.<init>(java.lang.Object)'] with root cause
+2026-08-09T00:32:59.351+08:00  INFO 20040 --- [notes] [http-nio-8080-exec-2] c.dev.notes.controller.NoteController    : 收到 API 請求：取的所有筆記
+2026-08-09T00:32:59.352+08:00  INFO 20040 --- [notes] [http-nio-8080-exec-2] c.d.n.service.implement.NoteServiceImpl  : 執行查詢：獲取所有筆記
+2026-08-09T00:33:04.631+08:00  INFO 20040 --- [notes] [http-nio-8080-exec-1] c.dev.notes.controller.NoteController    : 收到 API 請求：新增筆記
+2026-08-09T00:33:04.632+08:00  INFO 20040 --- [notes] [http-nio-8080-exec-1] c.d.n.service.implement.NoteServiceImpl  : 執行查詢：準備建立標題為 [WebSphere Application Server (WAS)] 的筆記
+2026-08-09T00:33:04.648+08:00 ERROR 20040 --- [notes] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.orm.ObjectOptimisticLockingFailureException: Row was already updated or deleted by another transaction for entity [com.dev.notes.entity.NoteEntity with id '1']] with root cause
 
-java.lang.NoSuchMethodError: 'void org.springframework.web.method.ControllerAdviceBean.<init>(java.lang.Object)'
-	at org.springdoc.core.service.GenericResponseService.lambda$getGenericMapResponse$8(GenericResponseService.java:705) ~[springdoc-openapi-starter-common-2.5.0.jar:2.5.0]
-	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178) ~[na:na]
-	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024) ~[na:na]
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[na:na]
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575) ~[na:na]
-	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260) ~[na:na]
-	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616) ~[na:na]
-	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622) ~[na:na]
-	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627) ~[na:na]
-	at org.springdoc.core.service.GenericResponseService.getGenericMapResponse(GenericResponseService.java:707) ~[springdoc-openapi-starter-common-2.5.0.jar:2.5.0]
-	at org.springdoc.core.service.GenericResponseService.build(GenericResponseService.java:246) ~[springdoc-openapi-starter-common-2.5.0.jar:2.5.0]
-	at org.springdoc.api.AbstractOpenApiResource.calculatePath(AbstractOpenApiResource.java:499) ~[springdoc-openapi-starter-common-2.5.0.jar:2.5.0]
-	at org.springdoc.api.AbstractOpenApiResource.calculatePath(AbstractOpenApiResource.java:676) ~[springdoc-openapi-starter-common-2.5.0.jar:2.5.0]
-	at org.springdoc.webmvc.api.OpenApiResource.lambda$calculatePath$11(OpenApiResource.java:219) ~[springdoc-openapi-starter-webmvc-api-2.5.0.jar:2.5.0]
-	at java.base/java.util.Optional.ifPresent(Optional.java:178) ~[na:na]
-	at org.springdoc.webmvc.api.OpenApiResource.calculatePath(OpenApiResource.java:200) ~[springdoc-openapi-starter-webmvc-api-2.5.0.jar:2.5.0]
-	at org.springdoc.webmvc.api.OpenApiResource.lambda$getPaths$2(OpenApiResource.java:170) ~[springdoc-openapi-starter-webmvc-api-2.5.0.jar:2.5.0]
-	at java.base/java.util.Optional.ifPresent(Optional.java:178) ~[na:na]
-	at org.springdoc.webmvc.api.OpenApiResource.getPaths(OpenApiResource.java:149) ~[springdoc-openapi-starter-webmvc-api-2.5.0.jar:2.5.0]
-	at org.springdoc.api.AbstractOpenApiResource.getOpenApi(AbstractOpenApiResource.java:353) ~[springdoc-openapi-starter-common-2.5.0.jar:2.5.0]
-	at org.springdoc.webmvc.api.OpenApiResource.openapiJson(OpenApiResource.java:124) ~[springdoc-openapi-starter-webmvc-api-2.5.0.jar:2.5.0]
-	at org.springdoc.webmvc.api.OpenApiWebMvcResource.openapiJson(OpenApiWebMvcResource.java:114) ~[springdoc-openapi-starter-webmvc-api-2.5.0.jar:2.5.0]
+org.hibernate.StaleObjectStateException: Row was already updated or deleted by another transaction for entity [com.dev.notes.entity.NoteEntity with id '1']
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:432) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.merge(DefaultMergeEventListener.java:193) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.doMerge(DefaultMergeEventListener.java:137) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:121) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:78) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:803) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:788) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:360) ~[spring-orm-7.0.8.jar:7.0.8]
+	at jdk.proxy4/jdk.proxy4.$Proxy130.merge(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityHandlerInvocationHandler.invokeMethod(SharedEntityManagerCreator.java:239) ~[spring-orm-7.0.8.jar:7.0.8]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:383) ~[spring-orm-7.0.8.jar:7.0.8]
+	at jdk.proxy4/jdk.proxy4.$Proxy130.merge(Unknown Source) ~[na:na]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:667) ~[spring-data-jpa-4.1.0.jar:4.1.0]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-7.0.8.jar:7.0.8]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:278) ~[spring-data-commons-4.1.0.jar:4.1.0]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:169) ~[spring-data-commons-4.1.0.jar:4.1.0]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158) ~[spring-data-commons-4.1.0.jar:4.1.0]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:545) ~[spring-data-commons-4.1.0.jar:4.1.0]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:290) ~[spring-data-commons-4.1.0.jar:4.1.0]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:690) ~[spring-data-commons-4.1.0.jar:4.1.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.8.jar:7.0.8]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:171) ~[spring-data-commons-4.1.0.jar:4.1.0]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:146) ~[spring-data-commons-4.1.0.jar:4.1.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.8.jar:7.0.8]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69) ~[spring-data-commons-4.1.0.jar:4.1.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.8.jar:7.0.8]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:133) ~[spring-tx-7.0.8.jar:7.0.8]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:371) ~[spring-tx-7.0.8.jar:7.0.8]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:130) ~[spring-tx-7.0.8.jar:7.0.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.8.jar:7.0.8]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:135) ~[spring-tx-7.0.8.jar:7.0.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.8.jar:7.0.8]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:166) ~[spring-data-jpa-4.1.0.jar:4.1.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.8.jar:7.0.8]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:222) ~[spring-aop-7.0.8.jar:7.0.8]
+	at jdk.proxy4/jdk.proxy4.$Proxy141.save(Unknown Source) ~[na:na]
+	at com.dev.notes.service.implement.NoteServiceImpl.createNote(NoteServiceImpl.java:52) ~[classes/:na]
+	at com.dev.notes.controller.NoteController.createNote(NoteController.java:48) ~[classes/:na]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252) ~[spring-web-7.0.8.jar:7.0.8]
@@ -327,8 +195,8 @@ java.lang.NoSuchMethodError: 'void org.springframework.web.method.ControllerAdvi
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.8.jar:7.0.8]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.8.jar:7.0.8]
 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000) ~[spring-webmvc-7.0.8.jar:7.0.8]
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892) ~[spring-webmvc-7.0.8.jar:7.0.8]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622) ~[tomcat-embed-core-11.0.22.jar:6.1]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649) ~[tomcat-embed-core-11.0.22.jar:6.1]
 	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.8.jar:7.0.8]
 	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.22.jar:6.1]
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
@@ -360,98 +228,14 @@ java.lang.NoSuchMethodError: 'void org.springframework.web.method.ControllerAdvi
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2026-08-08T21:22:59.718+08:00  INFO 23564 --- [notes] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-08-08T21:22:59.724+08:00  INFO 23564 --- [notes] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-08-08T21:22:59.727+08:00  INFO 23564 --- [notes] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-08-08T21:22:59.730+08:00  INFO 23564 --- [notes] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-08-08T21:22:59.738+08:00  INFO 23564 --- [notes] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-08-08T21:23:10.028+08:00  INFO 7152 --- [notes] [restartedMain] com.dev.notes.NotesApplication           : Starting NotesApplication using Java 21.0.9 with PID 7152 (C:\Project\notes\target\classes started by a0985 in C:\Project\notes)
-2026-08-08T21:23:10.032+08:00 DEBUG 7152 --- [notes] [restartedMain] com.dev.notes.NotesApplication           : Running with Spring Boot v4.1.0, Spring v7.0.8
-2026-08-08T21:23:10.033+08:00  INFO 7152 --- [notes] [restartedMain] com.dev.notes.NotesApplication           : No active profile set, falling back to 1 default profile: "default"
-2026-08-08T21:23:10.077+08:00  INFO 7152 --- [notes] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-08-08T21:23:10.077+08:00  INFO 7152 --- [notes] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-08-08T21:23:10.746+08:00  INFO 7152 --- [notes] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-08-08T21:23:10.786+08:00  INFO 7152 --- [notes] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interface.
-2026-08-08T21:23:11.284+08:00  INFO 7152 --- [notes] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
-2026-08-08T21:23:11.299+08:00  INFO 7152 --- [notes] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-08-08T21:23:11.299+08:00  INFO 7152 --- [notes] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
-2026-08-08T21:23:11.346+08:00  INFO 7152 --- [notes] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1268 ms
-2026-08-08T21:23:11.519+08:00  INFO 7152 --- [notes] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-08-08T21:23:11.602+08:00  INFO 7152 --- [notes] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.1.Final
-2026-08-08T21:23:12.039+08:00  INFO 7152 --- [notes] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-08-08T21:23:12.070+08:00  INFO 7152 --- [notes] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-08-08T21:23:12.222+08:00  INFO 7152 --- [notes] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6dc5af69
-2026-08-08T21:23:12.224+08:00  INFO 7152 --- [notes] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-08-08T21:23:12.292+08:00  WARN 7152 --- [notes] [restartedMain] org.hibernate.orm.core                   : HHH000511: The 5.7.24 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
-2026-08-08T21:23:12.332+08:00  INFO 7152 --- [notes] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [jdbc:mysql://localhost:3306/deployment_notes?serverTimezone=Asia/Taipei&useSSL=false&characterEncoding=utf8]
-	Database driver: MySQL Connector/J
-	Database dialect: MySQLDialect
-	Database version: 5.7.24
-	Default catalog/schema: deployment_notes/undefined
-	Autocommit mode: undefined/unknown
-	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
-	JDBC fetch size: none
-	Pool: DataSourceConnectionProvider
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-08-08T21:23:13.239+08:00  INFO 7152 --- [notes] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-08-08T21:23:13.289+08:00  INFO 7152 --- [notes] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-08-08T21:23:13.370+08:00  INFO 7152 --- [notes] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-08-08T21:23:13.600+08:00  WARN 7152 --- [notes] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-08-08T21:23:13.978+08:00  INFO 7152 --- [notes] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
-2026-08-08T21:23:13.984+08:00  INFO 7152 --- [notes] [restartedMain] com.dev.notes.NotesApplication           : Started NotesApplication in 4.471 seconds (process running for 5.154)
-2026-08-08T21:23:23.309+08:00  INFO 7152 --- [notes] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-08-08T21:23:23.310+08:00  INFO 7152 --- [notes] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-08-08T21:23:23.312+08:00  INFO 7152 --- [notes] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2026-08-08T21:23:24.285+08:00  INFO 7152 --- [notes] [http-nio-8080-exec-10] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 433 ms
-2026-08-08T21:28:17.538+08:00  INFO 7152 --- [notes] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-08-08T21:28:17.544+08:00  INFO 7152 --- [notes] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-08-08T21:28:17.547+08:00  INFO 7152 --- [notes] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-08-08T21:28:17.551+08:00  INFO 7152 --- [notes] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-08-08T21:28:17.557+08:00  INFO 7152 --- [notes] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-08-08T21:28:22.264+08:00  INFO 20152 --- [notes] [restartedMain] com.dev.notes.NotesApplication           : Starting NotesApplication using Java 21.0.9 with PID 20152 (C:\Project\notes\target\classes started by a0985 in C:\Project\notes)
-2026-08-08T21:28:22.267+08:00 DEBUG 20152 --- [notes] [restartedMain] com.dev.notes.NotesApplication           : Running with Spring Boot v4.1.0, Spring v7.0.8
-2026-08-08T21:28:22.268+08:00  INFO 20152 --- [notes] [restartedMain] com.dev.notes.NotesApplication           : No active profile set, falling back to 1 default profile: "default"
-2026-08-08T21:28:22.308+08:00  INFO 20152 --- [notes] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-08-08T21:28:22.309+08:00  INFO 20152 --- [notes] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-08-08T21:28:22.929+08:00  INFO 20152 --- [notes] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-08-08T21:28:22.968+08:00  INFO 20152 --- [notes] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interface.
-2026-08-08T21:28:23.429+08:00  INFO 20152 --- [notes] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
-2026-08-08T21:28:23.442+08:00  INFO 20152 --- [notes] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-08-08T21:28:23.443+08:00  INFO 20152 --- [notes] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
-2026-08-08T21:28:23.485+08:00  INFO 20152 --- [notes] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1176 ms
-2026-08-08T21:28:23.659+08:00  INFO 20152 --- [notes] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-08-08T21:28:23.721+08:00  INFO 20152 --- [notes] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.1.Final
-2026-08-08T21:28:24.140+08:00  INFO 20152 --- [notes] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-08-08T21:28:24.169+08:00  INFO 20152 --- [notes] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-08-08T21:28:24.299+08:00  INFO 20152 --- [notes] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@391df806
-2026-08-08T21:28:24.300+08:00  INFO 20152 --- [notes] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-08-08T21:28:24.342+08:00  WARN 20152 --- [notes] [restartedMain] org.hibernate.orm.core                   : HHH000511: The 5.7.24 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
-2026-08-08T21:28:24.381+08:00  INFO 20152 --- [notes] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [jdbc:mysql://localhost:3306/deployment_notes?serverTimezone=Asia/Taipei&useSSL=false&characterEncoding=utf8]
-	Database driver: MySQL Connector/J
-	Database dialect: MySQLDialect
-	Database version: 5.7.24
-	Default catalog/schema: deployment_notes/undefined
-	Autocommit mode: undefined/unknown
-	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
-	JDBC fetch size: none
-	Pool: DataSourceConnectionProvider
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-08-08T21:28:25.971+08:00  INFO 20152 --- [notes] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-08-08T21:28:26.017+08:00  INFO 20152 --- [notes] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-08-08T21:28:26.091+08:00  INFO 20152 --- [notes] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-08-08T21:28:26.415+08:00  WARN 20152 --- [notes] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-08-08T21:28:26.818+08:00  INFO 20152 --- [notes] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
-2026-08-08T21:28:26.827+08:00  INFO 20152 --- [notes] [restartedMain] com.dev.notes.NotesApplication           : Started NotesApplication in 4.993 seconds (process running for 5.584)
-2026-08-08T21:28:30.485+08:00  INFO 20152 --- [notes] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-08-08T21:28:30.485+08:00  INFO 20152 --- [notes] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-08-08T21:28:30.488+08:00  INFO 20152 --- [notes] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
-2026-08-08T21:28:31.541+08:00  INFO 20152 --- [notes] [http-nio-8080-exec-1] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 478 ms
-2026-08-08T21:30:01.617+08:00  INFO 20152 --- [notes] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-08-08T21:30:01.622+08:00  INFO 20152 --- [notes] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-08-08T21:30:01.624+08:00  INFO 20152 --- [notes] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-08-08T21:30:01.628+08:00  INFO 20152 --- [notes] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-08-08T21:30:01.633+08:00  INFO 20152 --- [notes] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-08-09T00:38:50.741+08:00  INFO 20040 --- [notes] [http-nio-8080-exec-6] c.dev.notes.controller.NoteController    : 收到 API 請求：新增筆記
+2026-08-09T00:38:50.742+08:00  INFO 20040 --- [notes] [http-nio-8080-exec-6] c.d.n.service.implement.NoteServiceImpl  : 執行查詢：準備建立標題為 [WebSphere Application Server (WAS)] 的筆記
+2026-08-09T00:38:59.333+08:00  INFO 20040 --- [notes] [http-nio-8080-exec-8] c.dev.notes.controller.NoteController    : 收到 API 請求：取的所有筆記
+2026-08-09T00:38:59.335+08:00  INFO 20040 --- [notes] [http-nio-8080-exec-8] c.d.n.service.implement.NoteServiceImpl  : 執行查詢：獲取所有筆記
+2026-08-09T00:43:14.585+08:00  INFO 20040 --- [notes] [http-nio-8080-exec-3] c.dev.notes.controller.NoteController    : 收到 API 請求：取的所有筆記
+2026-08-09T00:43:14.587+08:00  INFO 20040 --- [notes] [http-nio-8080-exec-3] c.d.n.service.implement.NoteServiceImpl  : 執行查詢：獲取所有筆記
+2026-08-09T00:43:36.213+08:00  INFO 20040 --- [notes] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-09T00:43:36.218+08:00  INFO 20040 --- [notes] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-08-09T00:43:36.221+08:00  INFO 20040 --- [notes] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-09T00:43:36.223+08:00  INFO 20040 --- [notes] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-08-09T00:43:36.232+08:00  INFO 20040 --- [notes] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
